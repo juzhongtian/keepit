@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">drawer_fragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="name_list">
+        <item>记事</item>
+        <item>提醒</item>
+        <item>已归档</item>
+        <item>回收站</item>
+    </string-array>
+
+    <string name="drawer_open">打开中</string>
+    <string name="drawer_close">关闭中</string>
+    <string name="account_name">巨中天</string>
+    <string name="email">juzhongtian@gmail.com</string>
+    <string name="title_activity_do_text_input">Do_text_input</string>
+    <string name="client_id">iwU48WrqHvS2AIONxDZ58GSD</string>
+    <string name="tran_URL">http://openapi.baidu.com/public/2.0/bmt/translate</string>
+
+    <string-array name="notice_timeorlocation">
+        <item>时间提醒</item>
+        <item>地点提醒</item>
+    </string-array>
+    <string-array name="notice_day_array">
+        <item>今天</item>
+        <item>明天</item>
+        <item>下周四</item>
+        <item>选择日期...</item>
+    </string-array>
+    <!-- 暂时先不考虑在上午后加入时间，这需要加强版的 adapter -->
+    <string-array name="notice_morning_array">
+        <item>上午</item>
+        <item>下午</item>
+        <item>傍晚</item>
+        <item>晚上</item>
+        <item>选择时间</item>
+    </string-array>
+    <string-array name="pic_choice">
+        <item>拍照</item>
+        <item>相册</item>
+        <item>录像</item>
+    </string-array>
+    <string-array name="location_list">
+        <item>输入地点</item>
+        <item>我的位置</item>
+        <item>搜索附近</item>
+    </string-array>
+
+    <string name="title_activity_do_cap_input_activity">Do_cap_input_activity</string>
+    <string name="title_activity_search_nearby">SearchNearbyActivity</string>
+
+</resources>

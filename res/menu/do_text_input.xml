@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.drawer_fragment.Do_text_input" >
+
+    <item
+        android:id="@+id/menu_item_cap"
+        android:icon="@drawable/new_picture"
+        android:showAsAction="ifRoom"
+        android:title="图">
+        <menu android:id="@+id/capsubmenu" >
+            <item
+                android:id="@+id/popupmenu_cap"
+                android:icon="@drawable/camera"
+                android:title="拍照"/>
+            <item
+                android:id="@+id/popupmenu_pic"
+                android:icon="@drawable/openfile"
+                android:title="相册"/>
+            <item
+                android:id="@+id/poppmenu_video"
+                android:icon="@drawable/video"
+                android:title="视频"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_item_voice"
+        android:icon="@drawable/voice_icon"
+        android:showAsAction="ifRoom"
+        android:title="录音"/>
+    <item
+        android:id="@+id/menu_item_translate"
+        android:icon="@drawable/ic_menu_edit"
+        android:showAsAction="ifRoom"
+        android:title="翻译"/>
+    <item
+        android:id="@+id/menu_item_share"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:showAsAction="never"
+        android:title="分享"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="设置"/>
+
+</menu>
